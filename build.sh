@@ -4,6 +4,7 @@ set -e
 crave run --no-patch -- "
 # Очистка
 echo 'Cleaning...'
+rm -rf out
 rm -rf .repo/local_manifests device/tecno/LH7n device/tecno/mt6789-common
 rm -rf device/tecno/LH7n-kernel vendor/tecno/LH7n vendor/tecno/mt6789-common
 rm -rf vendor/sony/dolby vendor/JamesDSP packages/apps/ViPER4AndroidFX
